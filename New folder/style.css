@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(119, 152, 173)
+}
+.container{
+    width: 600px;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+    background-color: white;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    color: orange;
+}
+.label1 label{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 18px;
+}
+i{
+    padding: 20px;
+}
+.label1 input{
+    width: 80%;
+    margin-bottom: 10px;
+}
+.label1 input[type="text"],input[type="password"]{
+    border: none ;
+    border-bottom: 1px solid blue;
+}
+.checkbox{
+    position: relative;
+    left: 8%;
+}
+button{
+    width: 90%;
+    color: #fff;
+    background-color: green;
+    border-radius: 5px;
+    height: 5vh;
+    margin-left: 35px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
